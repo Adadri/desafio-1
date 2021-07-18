@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.container-banner{
+    width: auto;
+    height: auto;
+    padding: 0 2%;
+    height: 300px;
+}
+
+.form{
+    padding: 20px;
+    width: 400px;
+    height: calc(100% + 30px);
+    float: right;
+    position: relative;
+    top: auto;
+    background-color: white;
+    border-width: 12px;
+    border-color: rgb(120,120,120,0.5);
+    border-style: solid;
+    background-color: white;
+    background-clip: padding-box;
+    }
+
+.form h2{
+    font-weight: normal;
+    color:#999999;
+    font-size: 21px;
+    font-display: auto;
+}
+
+.input-container span{
+    display: inline-block;
+    width: 80%;
+    color:#6b0505;
+    font-size: 17px;
+    padding-top: 5px;
+}
+
+.form p{
+    display: inline-block;
+    width: 100%;
+    color: #BBBBBB;
+    font-size: 17px;
+    margin:20px 0;
+    
+}
+
+.input-container input[type=text]{
+    margin-top: 8px;
+    width: 344px;
+    height: 20px;
+    padding: 8px 10px 0px 0px;
+    border: 1px solid;
+}
+
+.input-container input[type=text]{
+    outline: 0;
+}
+
+.form .input-submit-container{
+    text-align: center;
+}
+
+.form input[type=submit]{
+    color: white;
+    font-size: 25px;
+    width: 100px;
+    height: 45px;
+    display: inline-block;
+    background-color: #666666;
+    border-top: 1px;
+    border-right: 0;
+    border-left: 0;
+    cursor: pointer;
+    border-bottom: 1px solid #acacac
+}
+
+.form input [type=submit]{
+    background-color: #b1b1b1;
+}
+
+.background-section-one{
+    background-image: url(../assets/fundo.jpg); 
+    background-attachment:fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.background-section-two{
+    background-image: url(../assets/fundo.jpg); 
+    background-attachment:fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.img .background-section-one{ 
+    width: 1000px 500px;
+}
+
+
+footer{
+    height: 10px;
+    width: auto;
+    padding: 45px;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+}
+
+
+
+
